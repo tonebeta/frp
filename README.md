@@ -1,5 +1,4 @@
-# RaspberryPi-frp 树莓派frp内网穿透架设
-这是树莓派架设frp内网穿透教程  
+## FRP
 frp架设有分成server(服务器) 和 client (客户端)  
 
 ## 架设步骤
@@ -19,7 +18,7 @@ systemctl start frps # 启动服务
 systemctl enable frps #将服务设置为开机启动  
 ```
 
-接下来，进入树莓派terminal设置frp  
+接下来，进入client terminal设置frp  
 1. 运行以下4句指令  
 ```
 wget https://raw.githubusercontent.com/laomingOfficial/RaspberryPi-frp/master/SetupClient.sh  
